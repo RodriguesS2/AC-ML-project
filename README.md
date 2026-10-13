@@ -92,3 +92,7 @@ Referência rápida com informações sobre as bases de dados
 * **GA / SA:** Golos sofridos (*Goals against*) / Remates sofridos (*Shots against*)
 * **S:** Remates (*Shots*)
 * **SHO:** *Shutouts* (jogos sem sofrer golos)
+
+
+# Para ativar venv:
+source .venv/bin/activate
