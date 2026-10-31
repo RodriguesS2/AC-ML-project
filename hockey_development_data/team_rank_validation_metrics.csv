@@ -1,0 +1,2 @@
+validation_seasons,correct_predictions,total_predictions,division_rank_exact_accuracy,division_rank_within_one_accuracy,continuous_rank_mae
+1919-2009,299,1019,0.2934249263984298,0.6722276741903828,1.262268582627144

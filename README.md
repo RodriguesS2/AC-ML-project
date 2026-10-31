@@ -96,3 +96,27 @@ Referência rápida com informações sobre as bases de dados
 
 # Para ativar venv:
 source .venv/bin/activate
+
+## Previsão da classificação final
+
+Gere primeiro as estatísticas agregadas por equipa a partir dos dados dos
+jogadores e, em seguida, treine o modelo de previsão do lugar final na época
+regular. O modelo usa as estatísticas das até três épocas anteriores da mesma
+franquia. A avaliação usa walk-forward em todas as épocas com histórico
+anterior disponível: cada época é prevista por um modelo treinado apenas com
+épocas anteriores. O modelo final é treinado com todas as épocas disponíveis.
+As previsões são ordenadas para mostrar a posição na liga e dentro da divisão.
+
+```powershell
+python -m pip install -r requirements.txt
+python hockey_development_data\curate_player_stats.py
+```
+
+Abra `hockey_development_data\train_team_rank_model.ipynb` no Jupyter ou VS Code
+e execute as células pela ordem apresentada. O notebook mostra o erro médio
+absoluto e duas métricas de exatidão do rank da divisão — posição exata e
+posição com tolerância de ±1 — na avaliação walk-forward. Exporta a
+tabela completa para `hockey_development_data\team_rank_validation_results.csv`
+e o resumo das métricas para
+`hockey_development_data\team_rank_validation_metrics.csv`. O modelo final fica
+na variável `final_model` do kernel.
