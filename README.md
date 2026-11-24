@@ -8,38 +8,26 @@ Referência rápida com informações sobre as bases de dados
 
 ### Jogadores e Treinadores
 * **Master:** Detalhes biográficos e atributos de carreira de todos os jogadores e treinadores
-
 * **Scoring:** Métricas de desempenho dos jogadores
-
 * **Goalies:** Métricas de desempenho dos guarda-redes
-
 * **Coaches:** Estatísticas de treino
-
 * **ScoringShootout / GoaliesShootout:** Métricas de desempenho individual e de guarda-redes, respetivamente, em situações de desempate por penáltis
-
 * **ScoringSup:** Estatísticas suplementares de pontuação
 
 ### Equipas e Época Regular
 * **Teams:** Dados da época, classificações, estatísticas de golos e estatuto de qualificação para os playoffs
-
 * **TeamsHalf:** Classificações da primeira e segunda metades da época
-
 * **TeamSplits:** Métricas de desempenho da equipa em casa/fora 
-
 * **TeamVsTeam:** Registos de confrontos diretos entre equipas
-
 * **CombinedShutouts:** Registos de *shutouts* combinados, indicando a equipa, o adversário e os guarda-redes envolvidos
 
 ### Playoffs e Finais (Stanley Cup)
 * **SeriesPost:** Registos de resultados 
-
 * **TeamsPost / ScoringSC / GoaliesSC / TeamsSC:** Estatísticas de desempenho de equipas nos playoffs, e de jogadores, guarda-redes e equipas nas finais da Stanley Cup
 
 ### Prémios e Informação Adicional
 * **AwardsPlayers / AwardsCoaches / AwardsMisc:** Prémios, troféus e equipas *all-star* da pós-temporada para jogadores, treinadores e categorias diversas
-
 * **HOF:** Informação sobre o *Hall of Fame*
-
 * **abbrev:** Abreviaturas utilizadas nas tabelas *Teams* e *SeriesPost*
 
 
@@ -49,20 +37,14 @@ Referência rápida com informações sobre as bases de dados
 
 ### Identificadores (IDs)
 * **playerID / coachID / hofID:** IDs do Jogador, Treinador e Hall of Fame
-
 * **tmID / franchID:** ID da Equipa e ID do Franchising
-
 * **lgID / confID / divID:** IDs da Liga, Conferência e Divisão
-
 * **legendsID / ihdbID / hrefID:** IDs externos nos sites Legends Of Hockey, Internet Hockey Database e Hockey-Reference.com
 
 ### Características Biográficas e de Jogo
 * **firstNHL:** Primeira época na NHL (epoca 2005-06 apareçe como 2005)
-
 * **shootCatch:** Mão de remate (ou mão de receção para os guarda-redes)
-
 * **pos:** Posição do jogador
-
 * **stint:** Ordem de aparição numa determinada época
 
 ### Métricas de Desempenho e Resultados
