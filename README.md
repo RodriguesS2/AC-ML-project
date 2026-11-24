@@ -58,7 +58,6 @@ Referência rápida com informações sobre as bases de dados
 * **OTL:** Derrotas no prolongamento
 * **hW / rW:** Vitórias em casa / Vitórias fora
 * **JanW / JanL / JanT / JanOL:** Vitórias, derrotas, empates e derrotas no prolongamento referentes ao mês de Janeiro
-
 * **R/P:** "R" para indicar época regular, ou "P" para pós-temporada
 
 ### Métricas de Acontecimentos Específicos
